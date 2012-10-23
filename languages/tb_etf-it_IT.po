@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: TB Empty Titles Filler 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: TwoBeers Crew <light@twobeers.net>\n"
+"Language-Team: tbcrew\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#. Text in function
+#: tb-empty-titles-filler.php:1
+msgid "(Set a Title Format)"
+msgstr "(Imposta il Formato del Titolo)"
+
+#. Text in function
+#: tb-empty-titles-filler.php:1
+msgid "Custom Title Format"
+msgstr "Formato del Titolo Personalizzato"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:157
+msgid "Empty Titles Filler Options"
+msgstr "Opzioni di Empty Titles Filler"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:132
+msgid "HTML tags allowed:"
+msgstr "tag HTML consentite:"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:145
+msgid "Use the format even for not-empty titles. (highly not recommended)"
+msgstr "Usa il formato anche per i titoli non vuoti. (altamente sconsigliato)"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:126
+msgid "date"
+msgstr "data"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:129
+msgid "first category"
+msgstr "prima categoria"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:127
+msgid "format (if any)"
+msgstr "formato (se impostato)"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:128
+msgid "id"
+msgstr "id"
+
+#. Text in echo
+#: tb-empty-titles-filler.php:125
+msgid "you may use these codes:"
+msgstr "puoi usare i seguenti codici:"
+

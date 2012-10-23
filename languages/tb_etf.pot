@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: tb-empty-titles-filler.php:1
+msgid "(Set a Title Format)"
+msgstr ""
+
+#. Text in function
+#: tb-empty-titles-filler.php:1
+msgid "Custom Title Format"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:157
+msgid "Empty Titles Filler Options"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:132
+msgid "HTML tags allowed:"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:145
+msgid "Use the format even for not-empty titles. (highly not recommended)"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:126
+msgid "date"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:129
+msgid "first category"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:127
+msgid "format (if any)"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:128
+msgid "id"
+msgstr ""
+
+#. Text in echo
+#: tb-empty-titles-filler.php:125
+msgid "you may use these codes:"
+msgstr ""
