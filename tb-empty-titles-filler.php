@@ -155,7 +155,6 @@ class TB_Empty_Titles_Filler {
 		<div class="wrap">
 			<?php screen_icon(); ?>
 			<h2><?php _e( 'Empty Titles Filler Options', 'tb_etf' ); ?></h2>
-			<?php settings_errors(); ?>
 
 			<form method="post" action="options.php">
 				<?php
@@ -196,8 +195,9 @@ class TB_Empty_Titles_Filler {
 		if ( $id == null ) return $title;
 
 		if ( empty( $title ) || $options['not_empty_titles'] == true ) {
-			$category = get_the_category( $id ); 
-			$postdata = array( get_post_format( $id )? get_post_format_string( get_post_format( $id ) ): __( 'Post', 'tb_etf' ), get_the_time( get_option( 'date_format' ), $id ), $id, $category[0]->cat_name );
+			$category = get_the_category( $id );
+			$obj = get_post_type_object( get_post_type() );
+			$postdata = array( get_post_format( $id )? get_post_format_string( get_post_format( $id ) ): $obj->labels->singular_name, get_the_time( get_option( 'date_format' ), $id ), $id, isset( $category[0] ) ? $category[0]->cat_name : '' );
 			$codes = array( '%f', '%d', '%n', '%c' );
 			return str_replace( $codes, $postdata, $options['title_format'] );
 		} else
