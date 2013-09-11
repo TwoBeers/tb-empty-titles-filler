@@ -10,6 +10,7 @@ License: GNU General Public License, version 2
 License URI: http: //www.gnu.org/licenses/gpl-2.0.html
 */
 
+
 class TB_Empty_Titles_Filler {
 
 	var $slug = 'tb_etf';
